@@ -11,6 +11,7 @@ from collections import Counter
 warnings.simplefilter('ignore', BiopythonWarning)
 
 '''
+This script is used to get the RASA values for the amino acids and 
 Output a line graph with the RASA values for each protein
 calculate fraction of residues below a certain threshold (0.15 - 0.25)
 Find the residues that have less than 0.18 threshold and calculate the occurrences
